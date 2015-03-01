@@ -7,6 +7,7 @@
 
 #include "MP1Node.h"
 
+
 /*
  * Note: You can change/add any functions in MP1Node.{h,cpp}
  */
@@ -236,7 +237,7 @@ void MP1Node::nodeLoopOps() {
 	 */
 
 	 //Anthony
-	 
+	 log->LOG(&memberNode->addr, "test");
 	 
 	 
     return;
