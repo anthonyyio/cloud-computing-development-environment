@@ -164,6 +164,9 @@ int MP1Node::finishUpThisNode(){
    /*
     * Your code goes here
     */
+	
+	//Anthony
+	log->LOG(&memberNode->addr, "finishUpThisNode");
 }
 
 /**
@@ -220,7 +223,7 @@ bool MP1Node::recvCallBack(void *env, char *data, int size ) {
 	 * Your code goes here
 	 */
 	 //Anthony
-	 
+	 log->LOG(&memberNode->addr, "recvCallBack");
 }
 
 /**
@@ -237,7 +240,7 @@ void MP1Node::nodeLoopOps() {
 	 */
 
 	 //Anthony
-	 log->LOG(&memberNode->addr, "test");
+	 log->LOG(&memberNode->addr, "nodeLoopOps");
 	 
 	 
     return;
